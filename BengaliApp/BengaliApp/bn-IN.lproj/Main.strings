@@ -1,0 +1,27 @@
+
+/* Class = "IBUILabel"; text = "Date:"; ObjectID = "0Gv-Zn-m1i"; */
+"0Gv-Zn-m1i.text" = "তারিখ:";
+
+/* Class = "IBUILabel"; text = "Number:"; ObjectID = "Qel-2D-oS9"; */
+"Qel-2D-oS9.text" = "সংখ্যা:";
+
+/* Class = "IBUILabel"; text = "currency"; ObjectID = "RkI-VO-c3f"; */
+"RkI-VO-c3f.text" = "মুদ্রা";
+
+/* Class = "IBUILabel"; text = "Text:"; ObjectID = "VXJ-AP-6SE"; */
+"VXJ-AP-6SE.text" = "পাঠ:";
+
+/* Class = "IBUILabel"; text = "number"; ObjectID = "d2r-UD-fKj"; */
+"d2r-UD-fKj.text" = "সংখ্যা";
+
+/* Class = "IBUILabel"; text = "text"; ObjectID = "dhD-N6-f3D"; */
+"dhD-N6-f3D.text" = "পাঠ:";
+
+/* Class = "IBUILabel"; text = "Image"; ObjectID = "nKr-L0-AGG"; */
+"nKr-L0-AGG.text" = "ছবি";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "nPn-Cw-weO"; */
+"nPn-Cw-weO.text" = "তারিখ:";
+
+/* Class = "IBUILabel"; text = "Currency:"; ObjectID = "xkj-O6-qat"; */
+"xkj-O6-qat.text" = "মুদ্রা";

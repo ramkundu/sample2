@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979EE54A1A1F4B4E0062F7D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EE5491A1F4B4E0062F7D8 /* AppDelegate.swift */; };
+		979EE54D1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 979EE54B1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodeld */; };
+		979EE54F1A1F4B4E0062F7D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EE54E1A1F4B4E0062F7D8 /* ViewController.swift */; };
+		979EE5521A1F4B4E0062F7D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EE5501A1F4B4E0062F7D8 /* Main.storyboard */; };
+		979EE5541A1F4B4E0062F7D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979EE5531A1F4B4E0062F7D8 /* Images.xcassets */; };
+		979EE5571A1F4B4E0062F7D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 979EE5551A1F4B4E0062F7D8 /* LaunchScreen.xib */; };
+		979EE5631A1F4B4E0062F7D8 /* BengaliAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EE5621A1F4B4E0062F7D8 /* BengaliAppTests.swift */; };
+		979EE5721A1F5B450062F7D8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 979EE5741A1F5B450062F7D8 /* Localizable.strings */; };
+		979EE5761A1F5F1D0062F7D8 /* Hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 979EE5781A1F5F1D0062F7D8 /* Hello.png */; };
+		979EE57B1A1F60BD0062F7D8 /* Hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 979EE57A1A1F60BD0062F7D8 /* Hello.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979EE55D1A1F4B4E0062F7D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979EE53C1A1F4B4E0062F7D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979EE5431A1F4B4E0062F7D8;
+			remoteInfo = BengaliApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979EE5441A1F4B4E0062F7D8 /* BengaliApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BengaliApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979EE5481A1F4B4E0062F7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979EE5491A1F4B4E0062F7D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979EE54C1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BengaliApp.xcdatamodel; sourceTree = "<group>"; };
+		979EE54E1A1F4B4E0062F7D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979EE5511A1F4B4E0062F7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979EE5531A1F4B4E0062F7D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		979EE5561A1F4B4E0062F7D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		979EE55C1A1F4B4E0062F7D8 /* BengaliAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BengaliAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979EE5611A1F4B4E0062F7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979EE5621A1F4B4E0062F7D8 /* BengaliAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BengaliAppTests.swift; sourceTree = "<group>"; };
+		979EE56E1A1F58470062F7D8 /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-IN"; path = "bn-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		979EE56F1A1F58470062F7D8 /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-IN"; path = "bn-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		979EE5731A1F5B450062F7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		979EE5751A1F5B470062F7D8 /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bn-IN"; path = "bn-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		979EE5771A1F5F1D0062F7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/Hello.png; sourceTree = "<group>"; };
+		979EE5791A1F5F1E0062F7D8 /* bn-IN */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bn-IN"; path = "bn-IN.lproj/Hello.png"; sourceTree = "<group>"; };
+		979EE57A1A1F60BD0062F7D8 /* Hello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hello.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979EE5411A1F4B4E0062F7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EE5591A1F4B4E0062F7D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979EE53B1A1F4B4E0062F7D8 = {
+			isa = PBXGroup;
+			children = (
+				979EE5461A1F4B4E0062F7D8 /* BengaliApp */,
+				979EE55F1A1F4B4E0062F7D8 /* BengaliAppTests */,
+				979EE5451A1F4B4E0062F7D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979EE5451A1F4B4E0062F7D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979EE5441A1F4B4E0062F7D8 /* BengaliApp.app */,
+				979EE55C1A1F4B4E0062F7D8 /* BengaliAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979EE5461A1F4B4E0062F7D8 /* BengaliApp */ = {
+			isa = PBXGroup;
+			children = (
+				979EE5781A1F5F1D0062F7D8 /* Hello.png */,
+				979EE57A1A1F60BD0062F7D8 /* Hello.png */,
+				979EE5741A1F5B450062F7D8 /* Localizable.strings */,
+				979EE5491A1F4B4E0062F7D8 /* AppDelegate.swift */,
+				979EE54E1A1F4B4E0062F7D8 /* ViewController.swift */,
+				979EE5501A1F4B4E0062F7D8 /* Main.storyboard */,
+				979EE5531A1F4B4E0062F7D8 /* Images.xcassets */,
+				979EE5551A1F4B4E0062F7D8 /* LaunchScreen.xib */,
+				979EE54B1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodeld */,
+				979EE5471A1F4B4E0062F7D8 /* Supporting Files */,
+			);
+			path = BengaliApp;
+			sourceTree = "<group>";
+		};
+		979EE5471A1F4B4E0062F7D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				979EE5481A1F4B4E0062F7D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		979EE55F1A1F4B4E0062F7D8 /* BengaliAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				979EE5621A1F4B4E0062F7D8 /* BengaliAppTests.swift */,
+				979EE5601A1F4B4E0062F7D8 /* Supporting Files */,
+			);
+			path = BengaliAppTests;
+			sourceTree = "<group>";
+		};
+		979EE5601A1F4B4E0062F7D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				979EE5611A1F4B4E0062F7D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979EE5431A1F4B4E0062F7D8 /* BengaliApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979EE5661A1F4B4E0062F7D8 /* Build configuration list for PBXNativeTarget "BengaliApp" */;
+			buildPhases = (
+				979EE5401A1F4B4E0062F7D8 /* Sources */,
+				979EE5411A1F4B4E0062F7D8 /* Frameworks */,
+				979EE5421A1F4B4E0062F7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BengaliApp;
+			productName = BengaliApp;
+			productReference = 979EE5441A1F4B4E0062F7D8 /* BengaliApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979EE55B1A1F4B4E0062F7D8 /* BengaliAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979EE5691A1F4B4E0062F7D8 /* Build configuration list for PBXNativeTarget "BengaliAppTests" */;
+			buildPhases = (
+				979EE5581A1F4B4E0062F7D8 /* Sources */,
+				979EE5591A1F4B4E0062F7D8 /* Frameworks */,
+				979EE55A1A1F4B4E0062F7D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979EE55E1A1F4B4E0062F7D8 /* PBXTargetDependency */,
+			);
+			name = BengaliAppTests;
+			productName = BengaliAppTests;
+			productReference = 979EE55C1A1F4B4E0062F7D8 /* BengaliAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979EE53C1A1F4B4E0062F7D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Ramakrishna;
+				TargetAttributes = {
+					979EE5431A1F4B4E0062F7D8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					979EE55B1A1F4B4E0062F7D8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 979EE5431A1F4B4E0062F7D8;
+					};
+				};
+			};
+			buildConfigurationList = 979EE53F1A1F4B4E0062F7D8 /* Build configuration list for PBXProject "BengaliApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"bn-IN",
+			);
+			mainGroup = 979EE53B1A1F4B4E0062F7D8;
+			productRefGroup = 979EE5451A1F4B4E0062F7D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979EE5431A1F4B4E0062F7D8 /* BengaliApp */,
+				979EE55B1A1F4B4E0062F7D8 /* BengaliAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979EE5421A1F4B4E0062F7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EE57B1A1F60BD0062F7D8 /* Hello.png in Resources */,
+				979EE5721A1F5B450062F7D8 /* Localizable.strings in Resources */,
+				979EE5761A1F5F1D0062F7D8 /* Hello.png in Resources */,
+				979EE5521A1F4B4E0062F7D8 /* Main.storyboard in Resources */,
+				979EE5571A1F4B4E0062F7D8 /* LaunchScreen.xib in Resources */,
+				979EE5541A1F4B4E0062F7D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EE55A1A1F4B4E0062F7D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979EE5401A1F4B4E0062F7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EE54F1A1F4B4E0062F7D8 /* ViewController.swift in Sources */,
+				979EE54D1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodeld in Sources */,
+				979EE54A1A1F4B4E0062F7D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EE5581A1F4B4E0062F7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EE5631A1F4B4E0062F7D8 /* BengaliAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979EE55E1A1F4B4E0062F7D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979EE5431A1F4B4E0062F7D8 /* BengaliApp */;
+			targetProxy = 979EE55D1A1F4B4E0062F7D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979EE5501A1F4B4E0062F7D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EE5511A1F4B4E0062F7D8 /* Base */,
+				979EE56E1A1F58470062F7D8 /* bn-IN */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979EE5551A1F4B4E0062F7D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EE5561A1F4B4E0062F7D8 /* Base */,
+				979EE56F1A1F58470062F7D8 /* bn-IN */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		979EE5741A1F5B450062F7D8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EE5731A1F5B450062F7D8 /* en */,
+				979EE5751A1F5B470062F7D8 /* bn-IN */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		979EE5781A1F5F1D0062F7D8 /* Hello.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EE5771A1F5F1D0062F7D8 /* en */,
+				979EE5791A1F5F1E0062F7D8 /* bn-IN */,
+			);
+			name = Hello.png;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979EE5641A1F4B4E0062F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979EE5651A1F4B4E0062F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979EE5671A1F4B4E0062F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BengaliApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		979EE5681A1F4B4E0062F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BengaliApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		979EE56A1A1F4B4E0062F7D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BengaliAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengaliApp.app/BengaliApp";
+			};
+			name = Debug;
+		};
+		979EE56B1A1F4B4E0062F7D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BengaliAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BengaliApp.app/BengaliApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979EE53F1A1F4B4E0062F7D8 /* Build configuration list for PBXProject "BengaliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EE5641A1F4B4E0062F7D8 /* Debug */,
+				979EE5651A1F4B4E0062F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979EE5661A1F4B4E0062F7D8 /* Build configuration list for PBXNativeTarget "BengaliApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EE5671A1F4B4E0062F7D8 /* Debug */,
+				979EE5681A1F4B4E0062F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		979EE5691A1F4B4E0062F7D8 /* Build configuration list for PBXNativeTarget "BengaliAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EE56A1A1F4B4E0062F7D8 /* Debug */,
+				979EE56B1A1F4B4E0062F7D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		979EE54B1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				979EE54C1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodel */,
+			);
+			currentVersion = 979EE54C1A1F4B4E0062F7D8 /* BengaliApp.xcdatamodel */;
+			path = BengaliApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 979EE53C1A1F4B4E0062F7D8 /* Project object */;
+}
